@@ -235,12 +235,12 @@ video {
 }
 
 .hero__text h1 {
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 20px;
 }
 
 .hero__text p {
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .hero__image {
@@ -278,6 +278,14 @@ video {
   .hero__text {
     text-align: left;
     margin: 0;
+  }
+
+  .hero__text h1 {
+    font-size: 40px;
+  }
+
+  .hero__text p {
+    font-size: 19px;
   }
 
   .hero__image {
