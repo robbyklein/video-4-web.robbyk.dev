@@ -98,6 +98,16 @@ video {
   }
 }
 
+.adaptive-svg path {
+  fill: #0c0c0c;
+}
+
+@media (prefers-color-scheme: dark) {
+  .adaptive-svg path {
+    fill: #fcfcfc;
+  }
+}
+
 /*
   Buttons
 */
@@ -124,7 +134,7 @@ video {
   color: var(--text);
 }
 
-.button img {
+.button svg {
   margin-right: 8px;
 }
 
@@ -292,7 +302,7 @@ video {
   column-gap: 24px;
 }
 
-.feature-item img {
+.feature-item svg {
   margin: 0 auto;
 }
 
@@ -373,7 +383,7 @@ video {
   color: var(--primary);
 }
 
-.footer__left img {
+.footer__left svg {
   display: inline-flex;
   align-items: center;
   margin: -4px 2px 0;
