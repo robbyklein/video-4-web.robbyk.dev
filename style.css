@@ -120,6 +120,11 @@ video {
   border-width: 1px;
   border-style: solid;
   font-size: 14px;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.7;
 }
 
 .button.button--primary {
